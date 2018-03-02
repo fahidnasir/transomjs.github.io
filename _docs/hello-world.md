@@ -26,7 +26,7 @@ We need to create an index.js file and require our dependencies.
 // index.js
 
 const Transom = require('@transomjs/transom-core');
-const transomMongoose = require('@transomjs/transom-server-functions');
+const transomServerFunctions = require('@transomjs/transom-server-functions');
 const myApi = require('./myApi');
 ```
 
